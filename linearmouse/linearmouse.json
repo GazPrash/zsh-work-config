@@ -1,0 +1,75 @@
+{
+  "schemes" : [
+    {
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : 3
+        },
+        "speed" : {
+          "vertical" : 0
+        },
+        "reverse" : {
+          "vertical" : false
+        }
+      },
+      "if" : {
+        "device" : {
+          "productName" : "Arcticfox-BTM",
+          "vendorID" : "0x32c2",
+          "productID" : "0x6621",
+          "category" : "mouse"
+        }
+      }
+    },
+    {
+      "scrolling" : {
+        "reverse" : true,
+        "distance" : {
+          "vertical" : "auto"
+        },
+        "speed" : {
+          "vertical" : 0
+        },
+        "acceleration" : 1
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x0",
+          "productID" : "0x0",
+          "category" : "trackpad",
+          "productName" : "Apple Internal Keyboard \/ Trackpad"
+        }
+      }
+    },
+    {
+      "pointer" : {
+        "speed" : 0.0689655172413792768,
+        "disableAcceleration" : false,
+        "acceleration" : 1.5
+      },
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0
+        },
+        "distance" : {
+          "vertical" : 3
+        },
+        "acceleration" : {
+          "vertical" : 1
+        }
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x1532",
+          "productID" : "0x98",
+          "productName" : "Razer DeathAdder Essential",
+          "category" : "mouse"
+        }
+      }
+    }
+  ],
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0"
+}
